@@ -1,0 +1,172 @@
+/* CSS for Thumbnail Gallery */
+
+/* General styles */
+body {
+    background-color: #f3ffe3; /* Set background color */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set font family */
+    display: flex; /* Center content vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of viewport */
+}
+
+.container {
+    text-align: center; /* Center-align content */
+}
+
+h1 {
+    margin-bottom: 40px; /* Add gap between heading and thumbnails */
+}
+
+/* Team members section */
+.team-members {
+    display: flex; /* Display thumbnails in a row */
+    justify-content: center; /* Center-align thumbnails horizontally */
+    gap: 20px; /* Add gap between thumbnails */
+}
+
+.team-member {
+    flex-grow: 1; /* Allow images to grow and fill empty space */
+    position: relative;
+    cursor: pointer;
+}
+
+.team-member img {
+    width: 250px; /* Set width of images */
+    height: 250px; /* Set height of images */
+    transition: transform 0.3s ease-in-out; /* Add transition effect for hover */
+}
+
+.member-details {
+    display: none; /* Hide member details by default */
+    position: absolute;
+    bottom: -120px; /* Position details below the image */
+    left: 50%; /* Center-align details horizontally */
+    transform: translateX(-50%); /* Center-align details horizontally */
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    text-align: center;
+}
+
+/* Hover effect for thumbnails */
+.team-member:hover img {
+    transform: scale(1.1); /* Scale up image on hover */
+}
+
+.team-member:hover .member-details {
+    display: block; /* Display member details on hover */
+}
+
+/* Header styles */
+header {
+    position: fixed; /* Fixed position at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #98ac7c; /* Set background color */
+    padding: 10px;
+    text-align: center;
+    color: #fff; /* Set text color to white */
+}
+
+header h1 {
+    font-size: 24px; /* Adjust heading size */
+    margin: 0; /* Remove default margin */
+    color: #fff; /* Set text color to white */
+}
+
+/* Navigation styles */
+nav {
+    overflow: hidden;
+    background-color: #98ac7c;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-items a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px; /* Adjust padding */
+}
+
+.nav-items a:hover {
+    background-color: #f3ffe3; /* Change background color on hover */
+    color: darkgreen; /* Change text color on hover */
+}
+
+.nav-items .active {
+    background-color: #f3ffe3; /* Set background color for active link */
+    color: #333; /* Change text color for active link */
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto; /* Center align the logo */
+}
+
+/* Footer styles */
+footer {
+    position: fixed; /* Fixed position at the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #333; /* Set background color */
+    padding: 10px;
+    text-align: center;
+    color: #f3ffe3; /* Set text color to white */
+}
+
+footer p {
+    margin: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f3ffe3; /* Set link color to white */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+
+footer address {
+    color: #f3ffe3; /* Set color of address text */
+}
+
+footer button {
+    background-color: #f3ffe3; /* Set background color */
+    color: #333; /* Set text color */
+    border: solid 3px #333; /* Set border color */
+    border-radius: 5px;
+    padding: 10px 20px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+footer button:hover {
+    background-color: #ddd; /* Change background color on hover */
+    color: #333; /* Change text color on hover */
+}

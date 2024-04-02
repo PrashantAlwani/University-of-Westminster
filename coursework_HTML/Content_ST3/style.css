@@ -1,0 +1,180 @@
+/* Global Styles */
+
+/* Set the default font family and remove default margin and padding */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3ffe3; /* Set background color */
+}
+
+/* Header Styles */
+h1 {
+    background-color: #333; /* Set background color for header */
+    color: #fff; /* Set text color for header */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center align items vertically */
+    padding: 20px; /* Add padding to header */
+    text-align: center; /* Center align text */
+    justify-content: center; /* Center align items horizontally */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px; /* Add padding to main content */
+}
+
+/* Section Styles */
+section {
+    background-color: #fff; /* Set background color for sections */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    padding: 20px; /* Add padding to sections */
+    margin-bottom: 30px; /* Add margin to bottom of sections */
+}
+
+h2 {
+    color: #333; /* Set text color for section headings */
+}
+
+p {
+    color: #666; /* Set text color for paragraphs */
+}
+
+/* Scroll to Top Button Styles */
+footer1 {
+    text-align: center; /* Center align text in footer */
+    padding: 20px 0; /* Add padding to footer */
+}
+
+#goTopBtn {
+    display: none; /* Hide button by default */
+    position: fixed; /* Fix button position */
+    bottom: 20px; /* Set distance from bottom */
+    right: 20px; /* Set distance from right */
+    z-index: 99; /* Set z-index to ensure it's above other elements */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    background-color: #F3FFE3; /* Set background color */
+    color: black; /* Set text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    padding: 15px; /* Add padding to button */
+    border-radius: 50%; /* Make button circular */
+}
+
+#goTopBtn:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+/* Header Navigation Styles */
+header {
+    background-color: #98ac7c;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 2px; /* Set heading size */
+    margin: 0; /* Remove default margin from heading */
+}
+
+header h1 a {
+    text-decoration: none; /* Remove underline from logo link */
+    color: inherit; /* Inherit text color from header */
+}
+
+nav {
+    overflow: hidden;
+    background-color: #98ac7c;
+    display: flex; /* Arrange links horizontally */
+    justify-content: space-between; /* Evenly distribute links */
+    padding: 8px;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none; /* Remove default bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    float: left;
+}
+
+.nav-items li {
+    display: inline-block; /* Display links inline */
+    margin-right: 20px; /* Add spacing between links */
+    font-family: Georgia;
+    font-size: 25px;
+    float: none;
+}
+
+.nav-items a {
+    float: left; /*Position the links side by side */
+    display: block;
+    color: #F3FFE3;
+    text-align: center;
+    text-decoration: none; /*Remove underline*/
+    padding: 25px; /*Add padding for buttons */
+}
+
+.nav-items a:hover {
+    background-color: #F3FFE3;
+    color: darkgreen; /* Hover text color */
+}
+
+.nav-items .active {
+    background-color: #98ac7c;
+    color: #f1f1f1; /* Active link text color */
+    text-decoration: underline;
+}
+
+.logo img {
+    display: block;
+    margin-left: 100px;
+}
+
+.nav-items {
+    margin-right: 100px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: black; /* Set font color to black */
+}
+
+footer p {
+    margin: 5px;
+    color: black;
+}
+
+footer a {
+    text-decoration: none;
+    color: black; /* Set font color to black */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+
+footer address {
+    color: black; /* Set font color to black */
+}
+
+footer button {
+    background-color: black;
+    color: darkolivegreen;
+    border: solid 3px;
+    border-radius: 5px;
+    text-align: right;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+footer button:hover {
+    background-color: gray;
+}

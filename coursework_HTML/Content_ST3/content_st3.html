@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reproductive, Maternal, Newborn, and Child Health (RMNCH)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+        <!-- Logo -->
+        <div class="logo">
+            <a href="HomePage.html" class="active">
+                <img src="logo.png" alt="logo" width="125px" height="80px">
+            </a>
+        </div>
+        <!-- Navigation Menu -->
+        <ul class="nav-items">
+            <li><a href="#">Gallery</a></li>
+            <li><a href="shop.html">Shop</a></li> <!-- Fixed href attribute -->
+            <li><a href="Feedback.html">Feedback</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="/Team/team.html">Team</a></li>
+            <li><a href="/User Profile/profile.html">User Profile</a></li>
+        </ul>
+    </nav>
+</header>
+  
+    <!-- Main Heading -->
+    <h1>Reproductive, Maternal, Newborn, and Child Health (RMNCH)</h1>
+  
+  <!-- Main Content Section -->
+  <main>
+    <!-- Maternal Health Section -->
+    <section id="maternal-health">
+      <h2>Maternal Health</h2>
+      <!-- Maternal Health Content -->
+      <p>Globally, an estimated 295,000 maternal deaths occurred in 2017, resulting in an overall maternal mortality ratio of 211 maternal deaths per 100,000 live births, a 4 per cent reduction compared with 2015 and a 38 per cent reduction compared with 2000. The majority of maternal deaths occurred in low- and lower-middle-income countries, with approximately 66 per cent of them occurring in sub-Saharan Africa. Disparities in maternal health outcomes persist within countries, with marginalized populations often experiencing higher rates of maternal mortality and limited access to maternal healthcare services. Key interventions to improve maternal health include increasing access to skilled birth attendants, antenatal care, emergency obstetric care, and addressing broader social determinants such as poverty and gender inequality.</p>
+    </section>
+    
+    <!-- Newborn Health Section -->
+    <section id="newborn-health">
+      <h2>Newborn Health</h2>
+      <!-- Newborn Health Content -->
+      <p>Despite progress in reducing child mortality rates, millions of newborns still die each year, with an estimated 2.4 million newborn deaths occurring in the first month of life in 2019. Preterm birth complications remain the leading cause of newborn deaths globally. Low- and middle-income countries bear the highest burden of newborn deaths, with sub-Saharan Africa and South Asia accounting for the majority of neonatal mortality. Improving newborn health requires interventions such as skilled attendance at birth, immediate and exclusive breastfeeding, prevention and management of infections, and access to quality neonatal care.</p>
+    </section>
+    
+    <!-- Child Health Section -->
+    <section id="child-health">
+      <h2>Child Health</h2>
+      <!-- Child Health Content -->
+      <p>The concerted effort of the global community continues to reduce preventable child deaths, with the under-5 mortality rate declining from 76 deaths per 1,000 live births in 2000 to 39 in 2018. Despite progress, disparities in child health outcomes persist between and within countries, with children from disadvantaged backgrounds facing higher risks of mortality and morbidity. Malnutrition remains a significant contributor to child mortality, with stunting, wasting, and micronutrient deficiencies affecting millions of children worldwide. Immunization programs play a crucial role in preventing childhood diseases and reducing child mortality rates.</p>
+    </section>
+    
+    <!-- Family Planning Section -->
+    <section id="family-planning">
+      <h2>Family Planning</h2>
+      <!-- Family Planning Content -->
+      <p>Worldwide, the proportion of women of reproductive age (15 to 49 years) whose family planning needs were met by modern contraceptive methods increased slightly, reaching around 77 per cent from 2015 to 2020. Access to a wide range of contraceptive methods is crucial for meeting the diverse needs and preferences of individuals and couples. Investment in family planning services yields significant returns, including reductions in maternal and child mortality, improvements in women's health and empowerment, and economic benefits at the individual, household, and societal levels.</p>
+    </section>
+    
+    <!-- Adolescent Health Section -->
+    <section id="adolescent-health">
+      <h2>Adolescent Health</h2>
+      <!-- Adolescent Health Content -->
+      <p>Worldwide, the adolescent birth rate fell steadily, from 45 births per 1,000 women 15 to 19 years of age in 2015 to 41 per 1,000 in 2020. Adolescent girls face unique challenges related to reproductive health, including early marriage, unintended pregnancies, and limited access to sexual and reproductive health services. Comprehensive sexuality education programs have been shown to empower adolescents with knowledge and skills to make informed decisions about their sexual and reproductive health. Addressing the multifaceted challenges within the realm of reproductive, maternal, newborn, and child health requires a comprehensive, multi-sectoral approach that addresses healthcare services, social determinants, and broader structural factors to ensure the well-being of women and children globally.</p>
+    </section>
+  </main>
+  
+  <!-- Footer Section -->
+  <footer1> <!-- Corrected footer1 to footer -->
+    <!-- Button to Scroll to Top -->
+    <button onclick="topFunction()" id="goTopBtn" title="Go to top">Top</button>
+  </footer1>
+
+  <!-- Second Footer Section -->
+  <footer>
+    <!-- Button to Return to Top -->
+    <button id="footerbutton" title="Top">Return To Top</button>
+    <br><br>
+    <!-- Link to Page Editor -->
+    <p><a href="PageEditor.html">Page Editor</a></p>
+    <!-- Logo -->
+    <img src="logo.png" alt="logo" width="200" height="140">
+    <!-- Contact Address -->
+    <p><address>helth@westminster.ac.uk</address></p>
+    <!-- Copyright Information -->
+    <p>&copy; 2024 Helth. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript for Scroll to Top Functionality -->
+  <script>
+    // Get the button
+    var mybutton = document.getElementById("goTopBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+</body>
+</html>
